@@ -41,37 +41,7 @@ Unlike traditional summarizers that treat all stories equally, **Scroll** evalua
 
 ## 🧠 System Architecture  
 
-RSS Feeds ──► Text Extraction (Newspaper3k)
-│
-▼
-Preprocessing & Cleaning
-│
-▼
-Sentence Embedding (MiniLM-L6-v2)
-│
-▼
-Clustering (Agglomerative)
-│
-▼
-Transformer Summarization
-│
-▼
-Emotion Detection (DistilRoBERTa + VADER)
-│
-▼
-Fuzzy Logic Scoring & Weighting
-│
-▼
-Topic Classification (DeBERTa / Embeddings)
-│
-▼
-Personalized Ranking + Audio Generation
-│
-▼
-Gradio Web Interface
-
-markdown
-Copy code
+RSS Feeds ──► Text Extraction (Newspaper3k) ──► Preprocessing & Cleaning ──► Sentence Embedding (MiniLM-L6-v2) ──► Clustering (Agglomerative) ──► Transformer Summarization  ──► Emotion Detection (DistilRoBERTa + VADER) ──► Fuzzy Logic Scoring & Weighting ──► Topic Classification (DeBERTa / Embeddings) ──► Personalized Ranking + Audio Generation ──► Gradio Web Interface
 
 ---
 
