@@ -1,0 +1,16 @@
+scikit-fuzzy
+newspaper3k
+lxml_html_clean
+feedparser
+sentence-transformers
+transformers
+sentencepiece
+vaderSentiment
+gTTS
+gradio
+tldextract
+torch
+nltk
+pandas
+numpy
+scikit-learn
